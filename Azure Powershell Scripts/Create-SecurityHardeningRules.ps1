@@ -27,32 +27,32 @@ Begin {
     #region IP address scopes
 
     # EY EMEIA Office scopes
-    $DEFRAOfficeCIDR = '145.62.64.96/29'
-    $DEFRAOfficeRangeStart = '145.62.64.97'
-    $DEFRAOfficeRangeEnd = '145.62.64.102'
+    $DEFRAOfficeCIDR = 'IPAddress'
+    $DEFRAOfficeRangeStart = 'IPAddress'
+    $DEFRAOfficeRangeEnd = 'IPAddress'
 
-    $DERUSOfficeCIDR = '145.62.80.96/29'
-    $DERUSOfficeRangeStart = '145.62.80.97'
-    $DERUSOfficeRangeEnd = '145.62.80.102'
+    $DERUSOfficeCIDR = 'IPAddress'
+    $DERUSOfficeRangeStart = 'IPAddress'
+    $DERUSOfficeRangeEnd = 'IPAddress'
 
     # EY EMEIA Remote Connect scopes
-    $DEFRARemoteCIDR = '145.62.65.21,145.62.65.22/31,145.62.65.24/29,145.62.65.32/27,145.62.65.64/26,145.62.65.128'
-    $DEFRARemoteRangeStart = '145.62.65.21'
-    $DEFRARemoteRangeEnd = '145.62.65.128'
+    $DEFRARemoteCIDR = 'IPAddress'
+    $DEFRARemoteRangeStart = 'IPAddress'
+    $DEFRARemoteRangeEnd = 'IPAddress'
 
-    $DERUSRemoteCIDR = '145.62.81.21,145.62.81.22/31,145.62.81.24/29,145.62.81.32/27,145.62.81.64/26,145.62.81.128'
-    $DERUSRemoteRangeStart = '145.62.81.21'
-    $DERUSRemoteRangeEnd = '145.62.81.128'
+    $DERUSRemoteCIDR = 'IPAddress'
+    $DERUSRemoteRangeStart = 'IPAddress'
+    $DERUSRemoteRangeEnd = 'IPAddress'
 
     # EY EMEIA GOLR firewall IPs
-    $GOLRFirewall01 = '145.62.64.33'
-    $GOLRFirewall02 = '145.62.80.33'
+    $GOLRFirewall01 = 'IPAddress'
+    $GOLRFirewall02 = 'IPAddress'
 
     # Release agents public IP
-    $releaseAgnets = '40.122.40.91'
+    $releaseAgnets = 'IPAddress'
 
     # Aure Portal IP Addresses for CosmosDB 
-    $azurePortal = '104.42.195.92,40.76.54.131,52.176.6.30,52.169.50.45,52.187.184.26'
+    $azurePortal = 'IPAddress'
 
     # Retrieve worker process public IPs
     Write-Output "Retrieving worker public IPs from App Service Plans"
